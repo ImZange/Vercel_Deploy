@@ -73,4 +73,4 @@ This project is configured for deployment on **Vercel**. To perform your own dep
 **Josué Miguel Ángel Zamorano Huerta**
 * **Student**: Ingeniería en Computación Inteligente.
 * **Institution**: Facultad de Ingeniería Mecánica y Eléctrica (FIME), Universidad de Colima.
-* **Focus**: Data Engineering and Software Development.
+

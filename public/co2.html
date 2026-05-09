@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body style="margin:0; background-color: #ffffff;">
+    <div id="chart" style="width:100%;height:100vh;"></div>
+    <script>
+        var data = [{
+            values: [410, 390, 450, 420],
+            labels: ['Industria', 'Transporte', 'Residencial', 'Otros'],
+            type: 'pie',
+            hole: .4
+        }];
+        var layout = { title: 'Distribución de Emisiones de CO2', font: { family: 'sans-serif' } };
+        Plotly.newPlot('chart', data, layout, {responsive: true});
+    </script>
+</body>
+</html>

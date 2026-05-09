@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body style="margin:0; background-color: #ffffff;">
+    <div id="chart" style="width:100%;height:100vh;"></div>
+    <script>
+        var data = [{
+            x: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun'],
+            y: [10, 5, 2, 15, 80, 120],
+            type: 'bar',
+            marker: { color: '#3b82f6' }
+        }];
+        var layout = { title: 'Niveles de Precipitación Mensual (mm)', font: { family: 'sans-serif' } };
+        Plotly.newPlot('chart', data, layout, {responsive: true});
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body style="margin:0; background-color: #ffffff;">
+    <div id="chart" style="width:100%;height:100vh;"></div>
+    <script>
+        var data = [{
+            x: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun'],
+            y: [22, 24, 27, 30, 32, 29],
+            type: 'scatter',
+            mode: 'lines+markers',
+            marker: { color: '#ef4444' }
+        }];
+        var layout = { title: 'Variación de Temperatura Local (°C)', font: { family: 'sans-serif' } };
+        Plotly.newPlot('chart', data, layout, {responsive: true});
+    </script>
+</body>
+</html>
